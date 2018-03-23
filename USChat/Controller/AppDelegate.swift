@@ -19,8 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
          FirebaseApp.configure()
         
-        let myDatabase = Database.database().reference()
-        myDatabase.setValue("We got a data!")
+//
+//        let myDatabase = Database.database().reference()
+//        myDatabase.setValue("We got a data!")
         return true
     }
 
