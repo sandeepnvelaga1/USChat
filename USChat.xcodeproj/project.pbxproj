@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7855F54B5A25DDCBBDBC821C /* Pods_USChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D31EC1C5B99678393C97E1 /* Pods_USChat.framework */; };
+		E2041DE6206984110029A23E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2041DE5206984110029A23E /* Info.plist */; };
 		E2A01ADF20600EDF009BB771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A01ADE20600EDF009BB771 /* AppDelegate.swift */; };
 		E2A01AE620600EDF009BB771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A01AE520600EDF009BB771 /* Assets.xcassets */; };
 		E2A01AE920600EDF009BB771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A01AE720600EDF009BB771 /* LaunchScreen.storyboard */; };
 		E2A01AF120600F13009BB771 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A01AF020600F13009BB771 /* Main.storyboard */; };
 		E2A01AFA20600F60009BB771 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A01AF220600F5F009BB771 /* WelcomeViewController.swift */; };
 		E2A01AFB20600F60009BB771 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A01AF320600F5F009BB771 /* LogInViewController.swift */; };
-		E2A01AFC20600F60009BB771 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2A01AF420600F5F009BB771 /* Info.plist */; };
 		E2A01AFD20600F60009BB771 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A01AF520600F5F009BB771 /* MessageCell.xib */; };
 		E2A01AFE20600F60009BB771 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A01AF620600F60009BB771 /* RegisterViewController.swift */; };
 		E2A01AFF20600F60009BB771 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A01AF720600F60009BB771 /* Message.swift */; };
@@ -27,6 +27,7 @@
 		004003EC7609B1CC9BFA5DA0 /* Pods-USChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-USChat/Pods-USChat.debug.xcconfig"; sourceTree = "<group>"; };
 		3B4039D934CE86522943286E /* Pods-USChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-USChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-USChat/Pods-USChat.release.xcconfig"; sourceTree = "<group>"; };
 		92D31EC1C5B99678393C97E1 /* Pods_USChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_USChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2041DE5206984110029A23E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2A01ADB20600EDF009BB771 /* USChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = USChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A01ADE20600EDF009BB771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2A01AE520600EDF009BB771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -34,7 +35,6 @@
 		E2A01AF020600F13009BB771 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		E2A01AF220600F5F009BB771 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E2A01AF320600F5F009BB771 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
-		E2A01AF420600F5F009BB771 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../../Flash-Chat-iOS11/Flash Chat/Info.plist"; sourceTree = "<group>"; };
 		E2A01AF520600F5F009BB771 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
 		E2A01AF620600F60009BB771 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		E2A01AF720600F60009BB771 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
@@ -97,7 +97,6 @@
 				E2A01B0320600FD6009BB771 /* View */,
 				E2A01B0420601008009BB771 /* Custom Cell */,
 				E2A01B052060103F009BB771 /* Controller */,
-				E2A01AF420600F5F009BB771 /* Info.plist */,
 				E2A01AE520600EDF009BB771 /* Assets.xcassets */,
 				E2A01B06206012B9009BB771 /* GoogleService-Info.plist */,
 				E2A01AE720600EDF009BB771 /* LaunchScreen.storyboard */,
@@ -133,6 +132,7 @@
 		E2A01B052060103F009BB771 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E2041DE5206984110029A23E /* Info.plist */,
 				E2A01ADE20600EDF009BB771 /* AppDelegate.swift */,
 				E2A01AF320600F5F009BB771 /* LogInViewController.swift */,
 				E2A01AF220600F5F009BB771 /* WelcomeViewController.swift */,
@@ -207,9 +207,9 @@
 				E2A01AE920600EDF009BB771 /* LaunchScreen.storyboard in Resources */,
 				E2A01AFD20600F60009BB771 /* MessageCell.xib in Resources */,
 				E2A01AE620600EDF009BB771 /* Assets.xcassets in Resources */,
-				E2A01AFC20600F60009BB771 /* Info.plist in Resources */,
 				E2A01AF120600F13009BB771 /* Main.storyboard in Resources */,
 				E2A01B07206012B9009BB771 /* GoogleService-Info.plist in Resources */,
+				E2041DE6206984110029A23E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -66,10 +66,12 @@ class ChatViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         {
             cell.avatarImageView.backgroundColor = UIColor.flatMint()
             cell.messageBackground.backgroundColor = UIColor.flatSkyBlue()
+            cell.messageBody.textColor = UIColor.flatWhite()
         }
         else{
-            cell.avatarImageView.backgroundColor = UIColor.flatWatermelon()
-            cell.messageBackground.backgroundColor = UIColor.flatGray()
+            cell.avatarImageView.backgroundColor = UIColor.flatGray()
+            cell.messageBackground.backgroundColor = UIColor.flatGreen()
+            cell.messageBody.textColor = UIColor.flatWhite()
         }
         return cell
         
