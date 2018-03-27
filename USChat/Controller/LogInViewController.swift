@@ -41,7 +41,7 @@ class LogInViewController: UIViewController {
         }
         //TODO: Log in the user
         
-        
+        // Checking Commits
     }
     
 
